@@ -1,0 +1,15 @@
+# Added by course staff. setup.py still pins the 2020 versions of the upstream
+# project (gym 0.17.2, Python 3.7 era); the team ran the code on Python 3.11
+# with gym 0.26. These are the versions course staff used on Python 3.11.17
+# to run main.py with --infer-svo and --record, plot_svo_inference, make_gif
+# and the scripts in staff/. gym 0.26 prints a warning about NumPy 2 at import;
+# the runs above were not affected.
+gym==0.26.2
+numpy==2.4.6
+scipy==1.17.1
+networkx==3.6.1
+dill==0.4.1
+pygame==2.6.1
+matplotlib==3.11.2
+termcolor==3.3.0
+Pillow==13.0.0
